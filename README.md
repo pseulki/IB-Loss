@@ -1,4 +1,4 @@
-# Influence-balanced Loss for Imbalanced Visual Classification (ICCV, 2021)
+# (ICCV, 2021) Influence-balanced Loss for Imbalanced Visual Classification 
 
 This is the official implementation of [Influence-balanced Loss for Imbalanced Visual Classification]() in PyTorch.
 The code heavily relies on [LDAM-DRW](https://github.com/kaidic/LDAM-DRW).
