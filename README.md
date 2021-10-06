@@ -14,6 +14,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
+Create 'data/' directory and download original data in the directory to make imbalanced versions. 
 - Imbalanced [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html). The original data will be downloaded and converted by `imbalancec_cifar.py`.
 - Imbalanced [Tiny ImageNet](http://cs231n.stanford.edu/tiny-imagenet-200.zip). The original data will be downloaded and converted by `imbalance_tinyimagenet.py`.
 - The paper also reports results on iNaturalist 2018. We will update the code for iNaturalist 2018 later.
