@@ -63,10 +63,11 @@ python tinyimage_train.py --dataset tinyimagenet -a resnet18 --loss_type IB --tr
 
 ```
 
-<!-- ## Citation
+## Citation
 
 If you find our paper and repo useful, please cite our paper
 
+<!--
 ```
 @inproceedings{cao2019learning,
   title={Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss},
