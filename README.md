@@ -3,6 +3,9 @@
 This is the official implementation of [Influence-balanced Loss for Imbalanced Visual Classification](https://arxiv.org/abs/2110.02444) in PyTorch.
 The code heavily relies on [LDAM-DRW](https://github.com/kaidic/LDAM-DRW).
 
+[Paper](https://arxiv.org/abs/2110.02444) | [Bibtex](#Citation) | [Video](https://youtu.be/IScwCt_xYoY) | [Slides](https://www.slideshare.net/SeulkiPark10/iccv-21-influencebalanced-loss-for-imbalanced-visual-classification)
+
+
 ## Requirements
 
 All codes are written by Python 3.7, and 'requirements.txt' contains required Python packages. 
