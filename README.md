@@ -26,16 +26,16 @@ Create 'data/' directory and download original data in the directory to make imb
 
 We provide several training examples:
 
-### CIFAR-100-LT (imabalance ratio = 100)
-- CE-DRW + CMO 
+### CIFAR
+- CE baseline (CIFAR-100, long-tailed imabalance ratio of 100)
 
 ```bash
-python cifar_train.py --dataset cifar100 --loss_type CE  --train_rule DRW -b 128 --epochs 200 --data_aug CMO --lr 0.1
+python cifar_train.py --dataset cifar100 --loss_type CE --train_rule None --imb_type exp --imb_factor 0.01 --epochs 200 --num_classes 100 --gpu 0
 ```
-- BS + CMO 
+- IB (CIFAR-100, long-tailed imabalance ratio of 100)
 
 ```bash
-python cifar_train.py --dataset cifar100 --loss_type BS -b 128 --epochs 200 --data_aug CMO --lr 0.1
+python cifar_train.py --dataset cifar100 --loss_type IB --train_rule IBReweight --imb_type exp --imb_factor 0.01 --epochs 200 --num_classes 100 --start_ib_epoch 100 --gpu 0
 
 ```
 - IB + CB (CIFAR-100, long-tailed imabalance ratio of 100)
